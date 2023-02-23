@@ -15,7 +15,7 @@ const Template: ComponentStory<typeof Checkbox> = (args) => {
     <Checkbox
       {...args}
       checked={isChecked}
-      onChange={(prev) => hasIsChecked(!prev)}
+      onChange={() => hasIsChecked((prev) => !prev)}
     />
   );
 };
