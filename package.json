@@ -40,6 +40,7 @@
     "@svgr/webpack": "^6.5.1",
     "babel-loader": "^8.3.0",
     "babel-plugin-import": "^1.13.6",
+    "css-filter-converter": "^1.0.109",
     "eslint-plugin-storybook": "^0.6.11",
     "sass": "^1.58.0"
   }
