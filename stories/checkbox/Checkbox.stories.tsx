@@ -2,7 +2,6 @@ import React from "react";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 import { Checkbox } from "../../components/checkbox";
-import { ComposedStory } from "@storybook/store";
 
 export default {
   title: "FormInputs/Checkbox",
@@ -21,3 +20,7 @@ const Template: ComponentStory<typeof Checkbox> = (args) => {
 };
 
 export const Default = Template.bind({});
+Default.args = {
+  variant: "circle",
+  disabled: true,
+};

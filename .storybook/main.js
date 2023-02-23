@@ -1,5 +1,7 @@
 const path = require("path");
 
+// read this -> https://storybook.js.org/addons/storybook-addon-next
+
 module.exports = {
   stories: [
     "../stories/**/*.stories.mdx",
